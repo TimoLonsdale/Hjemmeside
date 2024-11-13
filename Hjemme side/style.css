@@ -1,0 +1,30 @@
+.middle {
+    margin: 0 auto;
+    width: 460px;
+    height: 600px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.Right{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column-reverse;
+
+}
+
+.Left{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column-reverse;
+
+}
+
+.Titel{
+    text-align: center;
+
+}
