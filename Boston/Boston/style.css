@@ -1,0 +1,56 @@
+a {
+    text-decoration: inherit;
+    color: rgb(0, 0, 0);
+}
+
+.Titel{
+    text-align: center;
+
+}
+
+
+
+.middle{
+    margin: 5vh;
+
+}
+
+.Parent{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+}
+
+.Food{
+    text-align: start;
+
+}
+
+.Activities{
+    text-align: start;
+}
+
+.Maps{
+    text-align: start;
+
+}
+
+iframe {
+    width: 200px;
+    height: 250px;
+}
+
+.FoodT{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+.FoodL{
+    text-align: start;
+}
+
+.ActivitiesT{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
