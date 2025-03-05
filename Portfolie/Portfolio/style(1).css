@@ -1,0 +1,79 @@
+
+
+
+.ting {
+    margin: 10px;
+    text-align: center;
+
+}
+
+.Overskrif{
+    display: flex;
+    text-align: justify;
+
+}
+.alleTing{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
+}
+
+.card-body{
+    background-color: rgb(255, 255, 255);
+}
+
+.card-footer{
+    background-color: rgb(255, 255, 255);
+}
+
+.boston figure img {
+	opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.boston figure:hover img {
+	opacity: .5;
+}
+
+img {
+    opacity: 1;
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+img:hover {
+    opacity: .5;
+  }
+
+.RRR{
+    margin: 15px;
+    text-align: center;
+}
+
+.MobilAPP{
+    height: auto; 
+    max-width: 30%;
+}
+.MangeTing{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+  
+}
+.card-group{
+    flex-wrap: wrap;
+
+
+}
+
+.MobilBillede{
+    width: 100%;
+}
+
+.KodeBilleder{
+    justify-content: space-between;
+}
