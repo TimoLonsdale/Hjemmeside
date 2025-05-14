@@ -13,7 +13,12 @@
 
 }
 .alleTing{
-    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+
 }
 
 .card-body{
@@ -55,9 +60,20 @@ img:hover {
 .MangeTing{
     display: flex;
     flex-direction: row;
-    align-items: stretch;
-    justify-content: flex-end;
+    justify-content: center;
+    text-align: center;
+  
+}
+.card-group{
+    flex-wrap: wrap;
 
 
+}
 
+.MobilBillede{
+    width: 100%;
+}
+
+.KodeBilleder{
+    justify-content: space-between;
 }
